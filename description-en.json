@@ -1,4 +1,5 @@
 {
+  "description": "Subscribes to realtime ticker events for one symbol and streams each update downstream.",
   "domainCategory": "Trading",
   "subjectiveTechnologyElement": "DataSources",
   "publisher": "BrainBoost Ltd.",
@@ -9,7 +10,7 @@
     {
       "type": "splitList",
       "title": "Realtime Ticker Stream Single Symbol",
-      "text": "Subjective datasource implementation for SubjectiveRealtimeTickerStreamSingleSymbolDataSource.",
+      "text": "Subscribes to realtime ticker events for one symbol and streams each update downstream.",
       "image": {
         "src": "/subjective_binance_realtime_ticker_stream_single_symbol_datasource/icon.svg",
         "alt": "Realtime Ticker Stream Single Symbol icon"
