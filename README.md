@@ -1,17 +1,3 @@
-# SubjectiveRealtimeTickerStreamSingleSymbolDataSource
+# subjective_binance_realtime_ticker_stream_single_symbol_datasource
 
-Subjective datasource implementation for SubjectiveRealtimeTickerStreamSingleSymbolDataSource.
-
-## Usage
-
-```python
-from subjective_datasources.SubjectiveRealtimeTickerStreamSingleSymbolDataSource import SubjectiveRealtimeTickerStreamSingleSymbolDataSource
-
-source = SubjectiveRealtimeTickerStreamSingleSymbolDataSource(params={})
-source.fetch()
-```
-
-## Parameters
-
-Use the params dictionary when constructing the datasource to provide connection and runtime values.
-Refer to get_connection_data() for required fields.
+Subjective v2 datasource for Binance-only trading pipelines. See repository README for configuration and safety constraints.
